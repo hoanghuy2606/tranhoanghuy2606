@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', Arial, sans-serif
+}
+
+.menu {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 1em;
+  margin: 15px 40px;
+  text-transform: uppercase;
+}
+.menu ul{
+    text-align: center;
+}
+.menu li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  padding: 12px 15px;
+  position: relative;
+}
+.menu li a {
+  color: black;
+  text-decoration: none;
+}
+.menu li:before,
+.menu li:after {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.75s ease;
+  height: 2px;
+  width: 35%;
+  background-color: black;
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+.menu li:before {
+  top: 0;
+  left: 0;
+}
+.menu li:after {
+  bottom: 0;
+  right: 0;
+}
+.menu li:hover:before,
+.menu li.hover:before,
+.menu li:hover:after,
+.menu li.hover:after {
+  opacity: 1;
+}
+.menu li:hover:before,
+.menu li.hover:before {
+  left: 65%;
+}
+.menu li:hover:after,
+.menu li.hover:after {
+   right: 65%;
+}
+
+.menu img{
+    width: 130px;
+    height: 50px;
+}
+
+.head ul{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 100px;
+}
+
+.head ul li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;   
+    color: black; 
+    font-size: 18px;
+}
+
+.search{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    margin: auto;
+    width: 80%;
+    border: 2px solid black;
+    padding: 5px;
+    height: 20px;
+    border-radius:10px;
+    outline: none;
+    color: black
+}
+
+.title{
+  border: 1px solid black;
+  margin: auto;
+  height: 40px;
+  width: 200px;
+  padding: 5px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.content_1{
+    width: 1400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.product_1{
+    height: 350px;
+    width: 250px;
+    float: left;
+    margin: 45px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product_2{
+    height: 350px;
+    width: 250px;
+    float: left;
+    margin: 45px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product_3{
+  height: 350px;
+  width: 250px;
+  float: left;
+  margin: 45px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product_4{
+  height: 350px;
+  width: 250px;
+  float: left;
+  margin: 45px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content_2{
+  width: 1400px;
+  height: 400px;
+  margin: auto;
+}
+
+.product_5{
+  height: 350px;
+  width: 250px;
+  float: left;
+  margin: 45px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product_6{
+  height: 350px;
+  width: 250px;
+  float: left;
+  margin: 45px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product_7{
+  height: 350px;
+  width: 250px;
+  float: left;
+  margin: 45px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product_8{
+  height: 350px;
+  width: 250px;
+  float: left;
+  margin: 45px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content_1 img{
+  margin-top: 10px;
+  height: 200px;
+  width: 250px;
+}
+
+.content_2 img{
+  margin-top: 10px;
+  height: 200px;
+  width: 250px;
+}
+
+.product_name1 {
+  margin-top: 20px;
+}
+
+.product_name2 {
+  margin-top: 20px;
+}
+
+.product_name3 {
+  margin-top: 20px;
+}
+
+.product_name4 {
+  margin-top: 20px;
+}
+
+.product_name5 {
+  margin-top: 20px;
+}
+
+.product_name6 {
+  margin-top: 20px;
+}
+
+.product_name7 {
+  margin-top: 20px;
+}
+
+.product_name8 {
+  margin-top: 20px;
+}
+
+.content_1 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.content_2{
+  text-align: center;
+  font-size: 16px;
+}
+
+
+#price{
+  color: red;
+  font-weight: bold;
+}
